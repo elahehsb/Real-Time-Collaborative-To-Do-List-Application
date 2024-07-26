@@ -1,3 +1,10 @@
+# Purpose:
+# This code creates a Flask backend with SocketIO support:
+
+# Task Management: Provides endpoints to retrieve and add tasks.
+# Real-Time Updates: Uses WebSockets to broadcast new tasks to all connected clients.
+
+
 from flask import Flask, jsonify, request
 from flask_socketio import SocketIO, emit
 
